@@ -1,0 +1,96 @@
+.hidden {
+  display: none;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #fff;
+  background: linear-gradient(to right, #26232c 0%, #26232c 40%, #26232c 100%);
+}
+
+#clock {
+  margin-top: 30px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 2px #231c31;
+  font-size: 60px;
+}
+
+#login-input {
+  color: #fff;
+  background-color: transparent;
+  border: 0px solid;
+  height: 40px;
+  width: 320px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom: 3px solid #fff;
+  margin-top: 15px;
+  font-size: 23px;
+  outline: none;
+}
+
+#login-input::placeholder {
+  font-size: 23px;
+}
+
+#entire-form {
+  text-align: center;
+  margin: 30px;
+}
+
+#greeting {
+  margin-top: 60px;
+  font-size: 40px;
+}
+
+#todo-input {
+  margin-top: 20px;
+  width: 600px;
+  height: 60px;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  font-family: inherit;
+  color: #fff;
+  background-color: transparent;
+  border-bottom: 3px solid #fff;
+}
+
+#todo-input::placeholder {
+  font-size: 23px;
+}
+
+#todo-list {
+  margin: 15px;
+  text-align: center;
+  top: 35%;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+#getting-username {
+  font-size: 30px;
+}
+
+#todo-list:not(:last-child) {
+  margin-bottom: 1000px;
+}
+
+li {
+  margin: 12px 0;
+  font-size: 25px;
+}
+
+li button {
+  margin-left: 10px;
+}
+
+#weather {
+  text-align: center;
+  margin-bottom: 20px;
+}
